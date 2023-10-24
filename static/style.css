@@ -1,0 +1,18 @@
+body{
+    background-color : antiquewhite;
+   
+}
+
+.TEXT{
+    border : skyblue 15px solid;
+    height : 50px;
+    width : 80%;
+    padding : 25px;
+    text-align: center;
+}
+.BOX{
+    height :520px;
+    width : 400px;
+    border : yellow 15px solid;
+    vertical-align: auto;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <title>조이스틱 리듬 게임</title>
+        <link rel = "stylesheet" href="{{url_for('static',filename = 'style.css')}}">
+    </head>
+    <body>
+        <div class = "BOX">
+            <div class = "TEXT">
+                <h3>성공 : {{webtruenum}}번</h3>
+            </div>
+            <div class = "TEXT">
+                <h3>실패 : {{webfalsenum}}번</h3>
+            </div>
+            <div class = "TEXT">
+                <h3>성공률 : {{webpersent}}%</h3>
+            </div>
+            <div class = "TEXT">
+                <h3>등급 : {{webrate}}</h3>
+            </div>
+        </div>
+    </body>
+</html>
